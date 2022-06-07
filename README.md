@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kleo-wyatt.github.io/rsschool-cv/
