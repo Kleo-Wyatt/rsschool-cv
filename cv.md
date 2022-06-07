@@ -27,21 +27,6 @@ int main(int ac, char **av)
     if (ac == 2)
     {
         while (av[1][i])
-            i++;
-        i--;
-    
-        if (av[1][i] == ' ' || av[1][i] == '\t')
-        {
-            while (av[1][i] == ' ' || av[1][i] == '\t')
-                {
-                    i--;
-                }
-            i++;
-            av[1][i] = '\0';
-        }
-        
-        i = 0;
-        while (av[1][i])
             {
                 while (av[1][i] == ' ' || av[1][i] == '\t')
                     i++;
